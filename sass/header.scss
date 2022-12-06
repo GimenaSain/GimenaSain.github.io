@@ -1,0 +1,52 @@
+header{
+
+      
+    .header {
+        font-size: 1.5rem;
+        text-align: center;
+        color: blue;
+    }
+    .logo{
+        width: 150px;
+        height: 50px;
+        padding: 10px
+               
+    }
+    img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+    
+    
+    h1{
+    color:$colorprincipal;
+    }
+    #textoMorado{
+
+        color: $colorprincipal;
+        font-family: $tipografiaprincipal;
+        font-size: 2rem;
+        text-align: $centrado;
+        font-weight: bold;
+       }
+    h2{
+        color:$colorslogan;
+        font-weight: 500;
+        text-align: $centrado;  
+        
+         
+    }
+    nav ul a{
+        color: $colorlink;
+        font-weight: 200;
+        font-size: large;
+        margin: 10px;
+       
+        
+               
+    }
+    nav ul a:hover{
+    color: rgb(100, 221, 237);
+    }
+}

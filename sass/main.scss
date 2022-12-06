@@ -1,0 +1,79 @@
+main{
+    text-align: $centrado;
+
+    .textoMain{
+        color: $colorh3ah5;
+        font-family: $tipografiaprincipal;
+        font-size: 1.5rem;
+        text-align: $centrado;
+        overflow: hidden;
+        margin: 30px 30px 30px 30px;
+        border-width: 10px;
+    }
+
+    .quehacemos{
+        padding: 2rem;
+        text-align: $centrado;
+        font-size: x-large;
+        
+        
+    }
+    .sobrenosotros{
+        padding: 2rem;
+        border-style: none;
+    }
+    
+    .flexboxmercado{
+        width: 100%;
+        height: 1000px;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        align-items: $centrado;
+        justify-content: space-evenly;
+        gap: 2%;
+        background-color: whitesmoke;
+        margin: auto
+              
+       
+
+    }
+    
+    .tarjetasmercado{
+        
+        width: 300px;
+        display: flex;
+        flex-direction: column;
+        justify-content: $centrado;
+        align-items: $centrado;
+        border: 5px;
+        background-color: beige;
+        border-radius: 20px;
+        padding: 0px;
+        object-fit: cover;
+        text-align: $centrado;
+        
+        
+    }
+    h6{
+        text-align: $centrado;
+        color: $colorh6;
+    }
+    
+    img{
+        width: 100%;
+        object-fit: cover;
+        
+    }
+
+    .formulario{
+        width: 50%;
+        justify-content: $centrado;
+        margin: auto;
+        padding: 10px;
+        
+        
+    }
+    
+
+}
