@@ -6,7 +6,7 @@
 header .header {
   font-size: 1.5rem;
   text-align: center;
-  color: blue; }
+  color: rgba(242, 177, 38, 0.59); }
 
 header .logo {
   width: 150px;
@@ -99,7 +99,7 @@ footer {
     color: #757575;
     font-weight: 300; }
   footer .iconosredes {
-    color: #536DFE;
+    color: #5735df;
     font-size: 3rem;
     margin: 3rem;
     padding: 2%; }
