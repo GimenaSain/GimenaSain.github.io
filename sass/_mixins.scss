@@ -1,7 +1,11 @@
-@mixin cajaquehacemos($p,$bts,$c) {
-    color: $c;
-    padding: $p;
-    border-top: $bts;
+@mixin textoslargos($color:$colorh3ah5,$font,$aling:$centrado,$border,$padding){
+    color: $color;
+    font-family: $font;
+    text-align: $aling;
+    border-style: $border;
+    padding: $padding;
+
     
+
 }
 
